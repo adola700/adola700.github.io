@@ -1,0 +1,9 @@
+{
+ "slug":"hinglish-tts", "title":"A more natural voice for Hinglish", "category":"Speech", "label":"Project note", "date":"2026-09-26", "readTime":"1 min", "summary":"Fine-tuning Veena for mixed Hindi–English speech, with an open training and streaming pipeline.",
+ "source":"https://www.linkedin.com/posts/akhila-datta-dola-072b75219_huggingface-llm-aiindia-activity-7442089575767920648--Whp", "sourceLabel":"Original LinkedIn announcement", "editorialNote":"Adapted from my public Hinglish TTS announcement.",
+ "sections":[
+ {"text":"Hinglish brings Hindi and English together in everyday conversation. Speech models need to handle that switching naturally."},
+ {"heading":"Fine-tuning for the way people speak", "text":"This project fine-tunes Veena with LoRA on Hinglish data and uses SNAC audio tokenization. In the evaluation reported in the release, mean opinion score improved from 4.12 to 4.66 on Hinglish. These are project evaluation results, rather than a universal measure of voice quality."},
+ {"heading":"The pipeline is open", "text":"The release includes training, evaluation, and real-time streaming inference code. The aim is to make the work reproducible and give others a starting point for further speech experiments."}
+ ]
+}

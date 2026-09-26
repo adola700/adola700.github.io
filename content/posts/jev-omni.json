@@ -1,0 +1,9 @@
+{
+ "slug":"jev-omni", "title":"Introducing Jev-Omni", "category":"Multimodal AI", "label":"Release note", "date":"2026-09-26", "readTime":"1 min", "summary":"Text, images, audio, and video. One interface for making decisions.",
+ "source":"https://huggingface.co/akhilaaa3/Jev-Omni", "sourceLabel":"Jev-Omni model card", "editorialNote":"Adapted from the public Jev-Omni model card.",
+ "sections":[
+ {"text":"Jev-Omni takes a situation, a question, and a set of options, then returns a probability for each option. It supports text, images, audio, and video."},
+ {"heading":"A model for bounded decisions", "text":"The output is a distribution over the choices you provide. This makes it useful when an application needs to choose between defined actions. The model produces its decision in one forward pass, without generating a text response."},
+ {"heading":"Explore the release", "text":"The model card contains the architecture, current benchmark results, setup instructions, and limitations. The weights and reference code are available on Hugging Face, along with an interactive demo."}
+ ]
+}
